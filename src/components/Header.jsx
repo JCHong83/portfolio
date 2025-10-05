@@ -4,7 +4,7 @@ import Image from "../assets/cozycode_logo_resize.png"
 const Header = () => {
   return (
     <>
-      <div className="flex justify-between py-4 border-b-2 border-b-blue-500">
+      <div className="flex justify-between py-4 shadow-md">
         <div className="flex justify-center gap-2 px-5 align-middle">
           <img className="max-w-14" src={Image} alt="logo" />
           <h2 className="my-auto">CozyCode</h2>
