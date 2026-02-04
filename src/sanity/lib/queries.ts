@@ -43,6 +43,7 @@ export const BLOG_ARCHIVE_QUERY = `*[_type == "post"] | order(publishedAt desc) 
   title,
   slug,
   publishedAt,
+  mainImage,
   "excerpt": array::join(string::split(pt::text(body), "")[0...120], "") + "...",
   "author": author->name,
   "category": categories[0]->title,
