@@ -34,7 +34,7 @@ export default function Footer() {
 
         {/* Bottom Bar */}
         <div className="pt-12 border-t border-zinc-200 flex flex-col md:flex-row justify-between gap-6 font-mono-tech text-[10px]">
-          <p>© 2026 Visionary Digital. All rights reserved.</p>
+          <p>© 2026 Visionary Digital Technologies. All rights reserved.</p>
           <div className="flex gap-8">
             <p>Loc. Italy</p>
             <p>Time. 16:41 CET</p>
