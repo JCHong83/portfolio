@@ -20,7 +20,7 @@ export default function Header() {
       <nav className="max-w-350 mx-auto px-6 h-20 flex items-center justify-between">
         {/* Logo - Bold & Typographic */}
         <Link href="/" className="text-xl font-black tracking-toghter uppercase">
-          Visionary<span className="text-zinc-400"> Digital Technologies</span>
+          JC &<span className="text-zinc-400"> Co.</span>
         </Link>
 
         {/* Desktop Nav */}

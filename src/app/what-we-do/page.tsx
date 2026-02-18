@@ -4,6 +4,8 @@ import Image from "next/image";
 import Link from "next/link";
 import { urlFor } from "@/sanity/lib/image"; // Ensure you have this helper
 
+export const revalidate = 60;
+
 export default async function WhatWeDoPage() {
   const { categories, projects } = await client.fetch(SERVICES_PAGE_QUERY);
 

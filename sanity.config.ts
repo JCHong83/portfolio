@@ -15,6 +15,10 @@ import {structure} from './src/sanity/structure'
 
 export default defineConfig({
   basePath: '/studio',
+  name: 'Visionary_Studio',
+  title: 'Visionary Digital CMS',
+
+
   projectId,
   dataset,
   // Add and edit the content schema in the './sanity/schemaTypes' folder
@@ -25,4 +29,16 @@ export default defineConfig({
     // https://www.sanity.io/docs/the-vision-plugin
     visionTool({defaultApiVersion: apiVersion}),
   ],
+
+  document: {
+    // This ensures thate when you publish, it triggers the site to update
+    productionUrl: async (prev, context) => {
+      const {document} = context
+      if (document._type === 'project') {
+        const slug = (document.slug as any)?.current
+        return `https://visionary-digital-technologies.vercel.app/projects/${slug}`
+      }
+      return prev
+    },
+  },
 })
