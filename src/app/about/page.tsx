@@ -1,4 +1,5 @@
 "use client";
+
 import Image from "next/image";
 import { motion } from "framer-motion";
 
@@ -15,8 +16,8 @@ export default function AboutPage() {
           >
             <span className="font-mono-tech mb-6 block">The Architect</span>
             <h1 className="text-zinc-900 mb-12">
-              Blending <span className="text-zinc-400">Hardware</span> <br />
-              with <span className="italic font-serif">Digital</span> Logic.
+              Pioneering <span className="text-zinc-400">Digital</span> <br />
+              and <span className="italic font-serif text-zinc-300">Visual</span> Technology.
             </h1>
           </motion.div>
         </div>
@@ -36,7 +37,7 @@ export default function AboutPage() {
           >
             <div className="relative aspect-3/4 overflow-hidden bg-zinc-100 group">
               <Image
-                src="/me.jpg" // Placeholder: replace with your photo in /public folder
+                src="/profile01.jpg" // Placeholder: replace with your photo in /public folder
                 alt="Profile"
                 fill
                 className="object-cover grayscale hover:grayscale-0 transition-all duration-700 ease-in-out scale-110 group-hover:scale-100"
@@ -57,19 +58,19 @@ export default function AboutPage() {
               transition={{ duration: 0.8, delay: 0.4 }}
             >
               <h3 className="text-3xl md:text-5xl font-medium leading-tight tracking-tight">
-                From high-end LED display sales to building scalable startup ecosystems.
+                From innovative T-LCD projects to building scalable startup ecosystems.
               </h3>
               
               <div className="space-y-6 text-zinc-600 text-lg md:text-xl leading-relaxed">
                 <p>
-                  My journey started at the intersection of physical space and technology. 
-                  I realized that the most powerful digital experiences aren't just on 
-                  a phone screen—they are in the environments we inhabit.
+                  My journey started when I realized I needed to build something.
+                  Following my passion for digital software and hardware technology,
+                  I assembled displays, I coded web and mobile apps, and followed followed projects involving LCD and LED technology.
                 </p>
                 <p>
                   Whether it’s engineering the transparency of an LCD screen or 
-                  architecting the backend of a new SaaS venture, I focus on 
-                  one thing: <strong>Structural Impact.</strong>
+                  building a new SaaS venture, I focus on 
+                  two things: <strong>Quality & Impact.</strong>
                 </p>
               </div>
 
