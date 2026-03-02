@@ -37,7 +37,7 @@ export default function Footer() {
           <p>© 2026 JC&Co. All rights reserved.</p>
           <div className="flex gap-8">
             <p>Loc. Italy</p>
-            <p>Time. 16:41 CET</p>
+            <p></p>
           </div>
         </div>
       </div>

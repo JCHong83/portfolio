@@ -31,8 +31,8 @@ export default function ContactPage() {
                   {/* Email & Phone */}
                   <div>
                     <span className="font-mono-tech text-[10px] text-zinc-400 uppercase block mb-4">Direct</span>
-                    <a href="mailto:hello@visionary.com" className="text-2xl md:text-3xl font-bold hover:text-zinc-500 transition-colors">hello@visionary.com</a>
-                    <p className="text-xl text-zinc-600 mt-2">+39 123 456 7890</p>
+                    <a href="mailto:hello@visionary.com" className="text-2xl md:text-3xl font-bold hover:text-zinc-500 transition-colors">jc@jcnco.eu</a>
+                    <p className="text-xl text-zinc-600 mt-2"></p>
                   </div>
 
                   {/* Location */}
